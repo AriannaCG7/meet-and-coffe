@@ -1,0 +1,174 @@
+body * {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+        background: #000f08;
+    color: white;
+    padding: 12px 0 13px 0;
+}
+
+li {
+    display: inline;
+    vertical-align: middle;
+    margin: 0 50px 0 0;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.icono svg {
+    width: 2rem;
+    fill: #ffffff;
+    margin-left: 75px;
+    vertical-align: middle;
+}
+
+header {
+    background-image: url(../img/bg-hero.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    font-family: 'Open Sans', sans-serif;
+    text-shadow: 0px 3px 6px black;
+    text-align: right;
+    color: rgb(255, 255, 255);
+    /* height: 650px; */
+    padding: 50px 100px 100px 200px;
+}
+
+header h1 {
+    font-size: 60px;
+}
+
+header h3 {
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+/* Trabajar aquí sección donde nos juntamos? */
+.lugar {
+    text-align: center;
+    padding: 100px;
+}
+
+.lugar img {
+    width: 25%;
+    margin-bottom: 30px;
+}
+
+.lugar h2 {
+    font-size: 30px;
+}
+
+.lugar p {
+    padding: 15px 460px;
+}
+
+#proxima-charla {
+    background: #A4452C;
+    color: white;
+    padding: 100px;
+}
+
+#proxima-charla .wrapper {
+    width: 800px;
+    margin: auto;
+}
+
+.wrapper img {
+    width: 25%;
+    border-radius: 5px;
+}
+
+
+.wrapper .texto {
+    width: 70%;
+    margin-left: 4%;
+    margin-top: -15px;
+}
+
+.wrapper img, .texto {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#proxima-charla .texto {
+    width: 55%;
+}
+
+#proxima-charla .texto h2 {
+    font-size: 30px;
+}
+
+#proxima-charla .texto h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+#proxima-charla .texto h4 {
+    font-size: 20px;
+    font-weight: 300;
+    
+}
+
+.carrera-expositor {
+    font-size: 12px;
+    font-weight: 100;
+    opacity: 0.8;
+    margin-bottom: 10px;
+}
+
+.descripcion-charla {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.eventos-anteriores {
+    text-align: center;
+    padding: 100px 0px;
+}
+
+.eventos-anteriores h2 {
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.eventos-anteriores div {
+    display: inline-block;
+    margin: 25px;
+}
+
+.eventos-anteriores h3 {
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.eventos-anteriores img {
+    border-radius: 5px;
+    width: 75%;
+}
+
+footer {
+    font-family: 'Open Sans', sans-serif;
+    background: #000f08;
+    color: white;
+    text-align: center;
+    padding: 60px 50px 50px 50px;
+}
+
+i {
+    font-size: 50px;
+    margin: 5px;
+}
+
+footer p {
+    margin: 25px 0 -30px 0;
+    opacity: 0.8;
+}
